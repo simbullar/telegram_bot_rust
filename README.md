@@ -18,9 +18,18 @@ Chat =
 5.In url id!(Example - https://web.telegram.org//#-1385083539 - 1385083539, https://web.telegram.org//#-1625905837 - -1625905837)
 You = 
 1.User founding your bot
-2.He writing him
+2.You writing him
 3.You going to https://api.telegram.org/botYOUR_BOT_TOKEN/getUpdates
 4.Search id(NOT MESSAGE ID!)
 User = 
 1.Opening Telegram Web
 2.In url id!(Without - in id)
+
+How to compile this?
+1.Install Rust
+2.Open command prommt
+3.Open (in command promt)directopy width Main.rs
+4.Print cargo build --release
+5.Open new file in directory
+6.Go to the Release - tg_bot.exe
+7.TADA!
